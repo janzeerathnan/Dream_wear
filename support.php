@@ -36,7 +36,6 @@ require_once 'includes/config.php';
                 <div class="flex items-center">
                     <a href="index.php" class="flex items-center space-x-2">
                         <img src="logo.jpg" alt="Dream Wear" class="h-8 w-auto">
-                        <span class="text-xl font-bold text-gray-900">Dream Wear</span>
                     </a>
                 </div>
 
@@ -50,7 +49,7 @@ require_once 'includes/config.php';
 
                 <!-- User Menu -->
                 <div class="flex items-center space-x-4">
-                    <a href="cart.php" class="relative text-gray-700 hover:text-primary transition-colors">
+                    <a href="orders.php" class="relative text-gray-700 hover:text-primary transition-colors">
                         <i class="fas fa-shopping-cart text-xl"></i>
                         <span class="absolute -top-2 -right-2 bg-red-500 text-white text-xs rounded-full h-5 w-5 flex items-center justify-center">0</span>
                     </a>
@@ -80,14 +79,7 @@ require_once 'includes/config.php';
     </header>
 
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <!-- Breadcrumb -->
-        <nav class="mb-8">
-            <ol class="flex items-center space-x-2 text-sm text-gray-600">
-                <li><a href="index.php" class="hover:text-primary">Home</a></li>
-                <li><i class="fas fa-chevron-right text-xs"></i></li>
-                <li class="text-gray-900">Support</li>
-            </ol>
-        </nav>
+        
 
         <!-- Page Header -->
         <div class="text-center mb-12">

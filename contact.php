@@ -62,7 +62,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <div class="flex items-center">
                     <a href="index.php" class="flex items-center space-x-2">
                         <img src="logo.jpg" alt="Dream Wear" class="h-8 w-auto">
-                        <span class="text-xl font-bold text-gray-900">Dream Wear</span>
                     </a>
                 </div>
 
@@ -76,7 +75,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
                 <!-- User Menu -->
                 <div class="flex items-center space-x-4">
-                    <a href="cart.php" class="relative text-gray-700 hover:text-primary transition-colors">
+                    <a href="orders.php" class="relative text-gray-700 hover:text-primary transition-colors">
                         <i class="fas fa-shopping-cart text-xl"></i>
                         <span class="absolute -top-2 -right-2 bg-red-500 text-white text-xs rounded-full h-5 w-5 flex items-center justify-center">0</span>
                     </a>
